@@ -1,0 +1,58 @@
+.dropdown{
+    position:fixed;
+    top: 50px;
+}
+.dropdown a{
+    display:block;
+    margin-bottom:15px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+.dropdown a:hover{
+    background-color: white;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+    color: white;
+    padding-left: 50px;
+}
+#me{
+    padding-left: 500px;
+    padding-top: 200px;
+}
+#life{
+    padding-left: 500px;
+    padding-top: 200px;
+}
+#career{
+    padding-left: 500px;
+    padding-top: 200px;
+}
+.name{
+    position:relative;
+}
+.name img {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    border-radius: 10px;
+}
+.name:hover img {
+    display: block;
+}
+footer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
